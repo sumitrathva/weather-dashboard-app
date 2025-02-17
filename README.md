@@ -67,5 +67,6 @@ A simple yet powerful **frontend weather app** built using **HTML, CSS, and Java
 https://weather-dashboard-app-roan.vercel.app/
 
 ## 🐜 License
-This project is **open-source** and available under the [MIT License](LICENSE).
+## Made By
+This project was created by Sumit Rathava. Feel free to contribute, modify, and share it under the terms of the MIT License.
 
