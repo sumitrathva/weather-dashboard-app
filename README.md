@@ -30,8 +30,32 @@ A simple yet powerful **frontend weather app** built using **HTML, CSS, and Java
    npm run dev
    ```
 
-## 📸 Screenshots
-*(Add screenshots of your app here)*
+
+## 🎨 **Screenshots** 🖼️
+
+### ❗ **City Not Found Error** 
+![City Not Found Error](City%20Not%20Found%20Error.jpg)  
+*An error screen when the city name isn't found.*
+
+---
+
+### 🌙 **Dark Mode** 
+![DARK_MODE](DARK_MODE.jpg)  
+*Experience a sleek dark theme for those late-night weather checks.*
+
+---
+
+### 🔍 **Recent Search & Favourites**  
+![Recent Search & Favourites](Recent-Search%20&%20Favourites.jpg)  
+*Quick access to recent searches and your favorite cities!*
+
+---
+
+### 🖥️ **UI**  
+![UI](UI.jpg)  
+*A clean and modern interface to check the weather effortlessly.*
+
+---
 
 ## 💡 How It Works
 
