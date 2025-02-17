@@ -33,30 +33,29 @@ A simple yet powerful **frontend weather app** built using **HTML, CSS, and Java
 
 ## 🎨 **Screenshots** 🖼️
 
-### ❗ **City Not Found Error** 
-![City Not Found Error](City%20Not%20Found%20Error.jpg)  
-*An error screen when the city name isn't found.*
-
----
-
-### 🌙 **Dark Mode** 
-![DARK_MODE](DARK_MODE.jpg)  
-*Experience a sleek dark theme for those late-night weather checks.*
-
----
-
-### 🔍 **Recent Search & Favourites**  
-![Recent Search & Favourites](Recent-Search%20&%20Favourites.jpg)  
-*Quick access to recent searches and your favorite cities!*
-
----
-
 ### 🖥️ **UI**  
-![UI](UI.jpg)  
+![UI](https://github.com/sumitrathva/weather-dashboard-app/blob/main/screenshots/UI.jpg)  
 *A clean and modern interface to check the weather effortlessly.*
 
 ---
 
+### 🔍 **Recent Search & Favourites**  
+![Recent Search & Favourites](https://github.com/sumitrathva/weather-dashboard-app/blob/main/screenshots/Recent-Search%20%26%20Favourites.jpg)  
+*Quick access to recent searches and your favorite cities!*
+
+---
+
+### 🌙 **Dark Mode** 
+![DARK_MODE](https://github.com/sumitrathva/weather-dashboard-app/blob/main/screenshots/DARK_MODE.jpg)  
+*Experience a sleek dark theme for those late-night weather checks.*
+
+---
+
+### ❗ **City Not Found Error** 
+![City Not Found Error](https://github.com/sumitrathva/weather-dashboard-app/blob/main/screenshots/City%20Not%20Found%20Error.jpg)  
+*An error screen when the city name isn't found.*
+
+---
 ## 💡 How It Works
 
 - The app fetches weather data from the **OpenWeather API**.
