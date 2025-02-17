@@ -53,20 +53,20 @@ function App() {
       setWeather(null);
       setForecast([]);
       setDropdownOpen(false);
-
+  
       const response = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${query}&units=${unit}&appid=${API_KEY}`
       );
-
-      if (!response.ok) throw new Error('City not found');
-
+  
+      if (!response.ok) throw new Error('City not found'); // This error message will be handled below
+  
       const data = await response.json();
       setWeather(data);
       setCity(data.name);
       updateRecentSearches(data.name);
       fetchForecast(query);
     } catch (err) {
-      setError(err.message);
+      setError('Oops! We couldn’t find the city. Please try again.');
     } finally {
       setLoading(false);
     }
@@ -230,7 +230,9 @@ function App() {
     </div>
   )}
 </div>
-
+    {/* Show the error message if there is an error */}
+    {error && <div className="error-message">{error}</div>}
+      
       <div className="toggle-bar">
         <label className="switch">
           <input type="checkbox" onChange={toggleUnit} />
