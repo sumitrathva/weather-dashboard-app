@@ -215,6 +215,16 @@ input:checked + .slider::before {
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
+.error-message {
+  color: #2b1fdc; 
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2c0a0a6d; 
+}
 
 .weather-card:hover {
   transform: scale(1.05);
